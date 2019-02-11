@@ -1,4 +1,4 @@
-
+require 'pry'
 def line(katz_deli)
 
   if katz_deli == []
@@ -28,3 +28,7 @@ def now_serving(katz_deli)
     puts "Currently serving #{next_up}."
   end
 end
+
+
+binding.pry 
+puts "goodbye"
