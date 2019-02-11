@@ -18,7 +18,7 @@ $line_array = []
 
 def take_a_number()
   # katz_deli.push(new_customer)
-  line_array.push($line_number)
+  $line_array.push($line_number)
   puts "Welcome, #{$line_number}. You are number #{$line_array.length} in line."
   $line_number += 1
 end
