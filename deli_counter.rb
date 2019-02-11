@@ -30,5 +30,5 @@ def now_serving(katz_deli)
 end
 
 
-binding.pry 
+binding.pry
 puts "goodbye"
