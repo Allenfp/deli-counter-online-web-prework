@@ -29,6 +29,6 @@ def now_serving(katz_deli)
   end
 end
 
-howards_line = ["Allen", "Howard"]
+howards_line = []
 binding.pry
 puts "goodbye"
